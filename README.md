@@ -21,7 +21,7 @@ La función `Math.pow()` permite elevar un valor a una potencia
 
 ### Bloque de código
 
-```
+```javascript
 function calcularImc(){
     let peso = document.getElementById("txtPeso").value;
     let estatura = document.getElementById("txtEstatura").value;
@@ -35,3 +35,10 @@ function calcularImc(){
 
 }
 ```
+
+#### Tablas ▼
+
+|Variable|Descripción|Valor inicial|
+|--------|-----------|-------------|
+| peso | Peso de la persona | 0 |
+|estatura | estatura de la persona | 0 |
