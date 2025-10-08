@@ -44,6 +44,6 @@ function calcularImc(){
 |estatura | estatura de la persona | 0 |
 
 
-[Texto](https://www.google.com)
+[Google](https://www.google.com)
 
 ![Imagen](https://media.istockphoto.com/id/1414160809/es/vector/icono-de-avi%C3%B3n-pictograma-de-vuelo-de-avi%C3%B3n-transporte-s%C3%ADmbolo-de-viaje.jpg?s=612x612&w=0&k=20&c=aaX-F7oeZ6_S-7e_JTOaojhhmY4yLLko_JdwGLUZJMQ=)
