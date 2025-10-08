@@ -14,3 +14,24 @@ Repositorio para los ejercicios del curso de **proyecto integrador** del tercer 
 2. Paso 2
 3. Paso 3
 
+> Cita textual
+> "..........................."
+
+La función `Math.pow()` permite elevar un valor a una potencia
+
+### Bloque de código
+
+```
+function calcularImc(){
+    let peso = document.getElementById("txtPeso").value;
+    let estatura = document.getElementById("txtEstatura").value;
+
+    imc = peso / Math.pow(estatura, 2);
+
+    document.getElementById("txtImc").value = imc.toFixed(2);
+    
+    let clasificacion = clasificacionImc();
+    document.getElementById("txtClasificacion").value = clasificacion;
+
+}
+```
