@@ -1,0 +1,18 @@
+.input-container{
+    margin-bottom: 20 px;
+}
+.input-container label{
+    display: inline-block;
+    width: 150px;
+}
+
+.input-container input{
+    display: inline-block;
+    height: 25px;
+}
+
+button{
+    background: #1e3799;
+    color: #fff;
+    
+}
