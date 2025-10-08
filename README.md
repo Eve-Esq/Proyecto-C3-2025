@@ -36,7 +36,7 @@ function calcularImc(){
 }
 ```
 
-#### Tablas ▼
+#### Tablas ✈️
 
 |Variable|Descripción|Valor inicial|
 |--------|-----------|-------------|
