@@ -1,0 +1,30 @@
+.contenedor{
+    border: 2px solid red;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; /*Modifica el eje principal*/
+    justify-content:space-between;/*Acomodar los elementos según su eje principal:justify content: left, right, center  
+                                space-between
+                                space-evenly
+                                space-around*/
+    align-items:start;/*align-items
+                            start
+                            center
+                            bottom*/
+}
+.cuadro{
+    border: 2px solid #000;
+    width: 100px;
+    height: 100px;
+}
+.azul{
+    background: #0a2471;
+
+}
+.celeste{
+    background: rgb(67, 67, 232) ;
+}
+.rosado{
+    background: palevioletred;
+}

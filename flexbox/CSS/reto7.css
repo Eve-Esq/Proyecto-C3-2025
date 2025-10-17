@@ -1,0 +1,31 @@
+.contenedor{
+    border: 2px solid red;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+.cuadro:nth-child(2){
+  align-self: flex-start;  /* excepción: este va arriba */
+}
+
+.cuadro{
+    border: 2px solid #000;
+    width: 100px;
+    height: 100px;
+}
+.verde{
+    background: #266741;
+
+}
+.amarillo{
+    background: #b9a44d;
+}
+.rojo{
+    background: #9a2c1e;
+}
+.azul{
+    background: #301cb0;
+}

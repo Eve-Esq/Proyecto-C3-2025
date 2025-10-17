@@ -1,0 +1,24 @@
+.contenedor{
+  height: 70vh;             /* altura para que exista eje vertical */
+  border: 2px solid #e11;   /* opcional, para ver el borde */
+  display: flex;            /* por defecto: row */
+  justify-content: center;  /* centra horizontalmente el grupo de ítems */
+  align-items: center;      /* ⭐ todos centrados verticalmente... */
+}
+
+.box{
+  width: 220px;
+  height: 120px;
+  border: 2px solid #222;
+  background: #fff;
+  display: flex;            /* sólo para centrar el texto dentro */
+  justify-content: center;
+  align-items: center;
+  font: 600 18px/1 system-ui, sans-serif;
+  margin: 0 14px;           /* separación horizontal (no es prop. flexbox) */
+}
+
+/* ✅ Excepción: SOLO el Footer baja al borde inferior del contenedor */
+.footer{
+  align-self: flex-end;     /* lo pega abajo (eje cruzado) */
+}

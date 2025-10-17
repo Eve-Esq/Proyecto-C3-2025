@@ -1,0 +1,30 @@
+.contenedor{
+    border: 2px solid red;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;/*Acomodar los elementos según su eje principal:justify content: left, right, center  
+                                space-between
+                                space-evenly
+                                space-around*/
+    align-items:center;/*align-items
+                            start
+                            center
+                            bottom*/
+   
+}
+.cuadro{
+    border: 2px solid #000;
+    width: 100px;
+    height: 100px;
+}
+.morado{
+    background: #7f1892;
+
+}
+.verde{
+    background: #0ff11e;
+}
+.rojo{
+    background: #e73c3c;
+}

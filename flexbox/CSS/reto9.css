@@ -1,0 +1,22 @@
+.contenedor{
+  height: 400px;                /* para visualizar el espacio */
+  width: 100%;
+  display: flex;                /* activar flexbox */
+  justify-content: space-between; /* A - izquierda / B - centro / C - derecha */
+  align-items: center;          /* centrar verticalmente */
+  border: 2px solid red;        /* solo para ver el contenedor */
+  
+}
+
+.cuadro{
+  width: 100px;
+  height: 100px;
+  border: 2px solid #000;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+}

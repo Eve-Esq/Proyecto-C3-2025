@@ -1,0 +1,29 @@
+.contenedor{
+    display:flex;
+    border: 2px solid #333;
+    width: 300px;
+    height: 600px;
+}
+
+.cuadro{
+    border: 2px solid #000;
+    width: 100px;
+}
+.verde{
+    background: #27ae60;
+
+}
+.amarillo{
+    background: #f1c40f;
+}
+.rojo{
+    background: #e74c3c;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}

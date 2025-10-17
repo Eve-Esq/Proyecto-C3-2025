@@ -1,0 +1,15 @@
+.barra{
+  height: 100px;
+  background: #2c3e50;
+  display: flex;                  /* activar flexbox */
+  justify-content: center;        /* centrar horizontalmente */
+  align-items: center;            /* centrar verticalmente */
+}
+
+.barra a{
+  color: #fff;
+  text-decoration: none;
+  font-family: system-ui, sans-serif;
+  font-size: 18px;
+  margin: 0 25px;                 /* espacio entre enlaces (no es propiedad flexbox) */
+}
